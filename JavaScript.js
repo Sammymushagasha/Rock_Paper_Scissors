@@ -15,11 +15,6 @@ function getComputerChoice(){
     return options[indices]
 }
 
-function getHumanChoice(){
-    let humanChoice = prompt("Enter either rock, paper, or scissor:")
-    return humanChoice
-}
-
 function playRound(humanChoice, computerChoice){
         humanChoice = humanChoice.toLowerCase()
 
