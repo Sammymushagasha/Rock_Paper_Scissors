@@ -1,0 +1,31 @@
+#container{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 1538px;
+    align-items: center;
+    border: 5in;
+    border-color: black;
+    background-color: rgb(238, 188, 188);
+    margin: -9px
+}
+
+button{
+    margin: 75px;
+    color: lightcyan;
+    background-color: rgb(154, 179, 204);
+}
+
+#scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 218, 245);
+    min-height: 641px;
+    position: fixed;
+    width: 1538px;
+    margin-top: 9px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+}
